@@ -43,8 +43,8 @@ Follow these steps to set up and run the project on your local machine.
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/<your-username>/football-stadiums-pipeline.git
-cd football-stadiums-pipeline
+git clone https://github.com/trungit03/Data-Pipeline-With-Apache-Airflow.git
+cd Data-Pipeline-With-Apache-Airflow
 ```
 
 ### 2. Install Python Dependencies
@@ -55,20 +55,7 @@ Install the required Python packages listed in `requirements.txt`:
 pip install -r requirements.txt
 ```
 
-### 3. Configure Environment (Optional)
-
-You can set environment variables for Airflow or the pipeline if needed:
-
-- Create a `.env` file in the root directory.
-
-- Add variables like:
-
-  ```
-  AIRFLOW_UID=50000
-  WIKIPEDIA_API_URL=https://en.wikipedia.org/w/api.php
-  ```
-
-### 4. Start Airflow with Docker Compose
+### 3. Start Airflow with Docker Compose
 
 Run the following command to start Airflow and its services (e.g., PostgreSQL, webserver, scheduler):
 
@@ -78,7 +65,7 @@ docker-compose up -d
 
 This will pull the necessary Docker images and start the containers in the background.
 
-### 5. Access the Airflow Web Interface
+### 4. Access the Airflow Web Interface
 
 - Open your browser and navigate to `http://localhost:8080`.
 - Log in with the default credentials:
