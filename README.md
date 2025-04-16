@@ -1,4 +1,4 @@
-# Data Pipeline for Football Stadiums from Wikipedia using Apache Airflow and Docker
+# Data Pipeline for Football Stadiums from Wikipedia using Apache Airflow and PostgreSQL
 
 ## Introduction
 
